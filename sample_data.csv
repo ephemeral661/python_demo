@@ -1,0 +1,6 @@
+trade_id,security_name,amount,date,issuer,corporate_action
+T001,Apple Inc.,5000.50,2023-10-01,Apple,None
+T002,Microsoft Corp.,3000.25,2023-10-01,Microsoft,Dividend Issued
+T003,Amazon.com Inc.,4200.75,2023-10-02,Amazon,None
+T004,Google LLC,3800.10,2023-10-02,Google,Stock Split
+T005,Facebook Inc.,2900.20,2023-10-03,Meta,None
