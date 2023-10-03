@@ -8,7 +8,7 @@ def mock_api_call():
 def fetch_security_master_data(security_id):
     mock_api_call()
 
-    # Hardcoded mock data for demonstration
+    # Hardcoded mock data for demonstration, all the data is fictional
     security_data = {
         'T001': {
             'security_id': 'T001',
