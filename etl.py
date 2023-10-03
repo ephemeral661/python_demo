@@ -3,7 +3,7 @@ import sqlite3
 
 DATABASE_NAME = "investment_data.db"
 
-
+#Creating some sample data and load into an Empty CSV file (sample_data.csv)
 def create_sample_data():
     sample_data = """trade_id,security_name,amount,date,issuer,corporate_action
 T001,Apple Inc.,5000.50,2023-10-01,Apple,None
@@ -33,7 +33,7 @@ def extract_data(filename):
 # For demonstration, let's consider there's a field 'amount' which needs to be converted to float.
 def transform_data(data):
     for item in data:
-        item['amount'] = float(item['amount'])  # just an example of data transformation
+        item['amount'] = float(item['amount'])  # just an example of data transformation, in real world practice, this could be much more complicated
     return data
 
 
