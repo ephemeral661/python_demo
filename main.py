@@ -11,10 +11,10 @@ def main():
     run_complete_etl_demo()
 
     # 3. Mock API Integration
-    security_id_sample = "T001"  # This can be dynamic based on your requirements
-    issuer_id_sample = "Apple"  # This can be dynamic based on your requirements
+    security_id_sample = "T001"  
+    issuer_id_sample = "Apple" 
 
-    # Fetch and print security master data
+    # Fetch and print security master data (since we don't have access to a real API, just have to print it out)
     security_data = fetch_security_master_data(security_id_sample)
     print(f"\nSecurity Master Data for {security_id_sample}:")
     print(security_data)
