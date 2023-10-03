@@ -4,7 +4,7 @@ import time
 def mock_api_call():
     time.sleep(0.5)
 
-
+#fetch data from an API
 def fetch_security_master_data(security_id):
     mock_api_call()
 
@@ -50,7 +50,8 @@ def fetch_issuer_data(issuer_id):
     return issuer_data.get(issuer_id, {})
 
 
-# Testing the functions
+# Testing the functions, printing out the data for demonstration purpose,
+# since we don't have a real backend to connect to
 if __name__ == "__main__":
     security_data = fetch_security_master_data('T001')
     print(security_data)
